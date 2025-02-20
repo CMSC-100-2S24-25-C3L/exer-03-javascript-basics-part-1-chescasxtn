@@ -34,3 +34,18 @@ function reversePassword(password){
     }
     return reversed;
 }
+
+// Function to store password
+function storePassword(name, password1, password2){
+    let newPassword;
+
+    if (validatePassword(password1, password2)) { 
+        newPassword = reversePassword(password1);
+    } else {
+        newPassword = password1;
+    }
+    return{name: name, newpassword: newPassword};
+}
+
+console.log(storePassword("John", "Pass1234", "Pass1234"));
+console.log(storePassword("John", "Pass123", "Pass12345"));
