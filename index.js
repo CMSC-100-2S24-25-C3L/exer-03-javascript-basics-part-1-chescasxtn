@@ -40,9 +40,9 @@ function storePassword(name, password1, password2){
     let newPassword;
 
     if (validatePassword(password1, password2)) { 
-        newPassword = reversePassword(password1);
+        newPassword = reversePassword(password1); // use reverse function
     } else {
-        newPassword = password1;
+        newPassword = password1; // if not valid, the value of newpw is the first pw
     }
     return{name: name, newpassword: newPassword};
 }
