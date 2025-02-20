@@ -1,1 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/si3U9_eK)
+**Full Name**: Lara Franchesca N. Dy
+
+**Degreee Program**: BS Computer Science
+
+**What are you key takeaways from this exercise?** I learned that I can execute .js files in the terminal with NodeJS. I also learned about equality operators, where there is strict equality(===) that compare if values AND datatypes compared to comparison operator(==) that compares values.
