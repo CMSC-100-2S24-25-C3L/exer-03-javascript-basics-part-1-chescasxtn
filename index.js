@@ -1,7 +1,7 @@
 // function to validate the password
 function validatePassword(password1, password2){
     // check if pw match and check length if it has at least 8 char
-    if (password1 != password2) return false;
+    if (password1 !== password2) return false;
     if (password1.length < 8) return false;
 
     // initialize 
